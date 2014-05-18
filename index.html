@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Shopping List</title>
+	<link rel="stylesheet" href="css/reset.css">
+	<link rel="stylesheet" href="css/style.css">
+	<script src="http://code.jquery.com/jquery.min.js"></script>
+	<script src="http://code.jquery.com/ui/1.10.4/jquery-ui.js"></script>
+	<script src="js/app.js"></script>
+</head>
+
+<body>
+		<section id="main-content">
+			<div id="content-header">
+				<h1>Create Your Shopping List</h1>
+			</div>
+			<div id="instructions">Enter item by clicking '+ Item' button or pressing 'Enter' key. Clicking the shopping list item moves it in the cart.  Clicking the undo icon moves it back in the shopping list while clicking the delete icon moves it to removed items list.  Alerts are shown when item is blank or already in one of the lists.  For your convenience lists are sortable.
+			</div>
+			<div id="item-form">
+				<div><input type="text" id="item-input"></div>
+				<div><button type="submit" id="add-item">+ Item</button></div>
+				<div id="msg"></div>
+			</div>
+
+			<div id="lists">
+				<h2>Shopping Items</h2>
+				<div id="shopping-items-list">
+				</div>
+
+				<h2>Cart Items</h2>
+				<div id="cart-items-list">
+				</div>
+
+				<h2>Removed Items</h2>
+				<div id="removed-items-list">
+				</div>
+			</div>
+		</section>
+</body>
+</html>

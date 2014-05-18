@@ -1,0 +1,129 @@
+* {
+    outline: 0px dashed black;
+}
+
+body {
+    font-family: 'Open Sans', Arial, sans-serif;
+    background: url('../images/aisle.jpg') no-repeat center center fixed;
+    height: 100%;
+    color: #505050;
+}
+
+#main-content {
+    width: 420px;
+    margin: 2em auto;
+    padding: 2em;
+    background-color: rgb(255,255,255);
+}
+
+h1 {
+    font-size: 2em;
+    margin: 10px 10px 30px 10px;
+}
+
+h2 {
+    font-size: 1em;
+    margin: 10px 10px 10px 0;
+}
+
+
+#lists h2 {
+    margin-top: 30px;
+}
+
+#lists div div {
+    min-height: 30px;
+    line-height: 25pt;
+    margin: 10px 0;
+    padding-left: 10px;
+    color: #fff;
+    word-wrap: break-word;
+}
+
+#lists {
+    border-top: 1px solid #ccc;
+}
+
+#shopping-items-list div {
+    background-color: #575757;
+}
+
+#cart-items-list div {
+    background-color: #36d9bc;
+    opacity: 0.35;
+}
+
+#removed-items-list div {
+    background-color: #e86425;
+    opacity: 0.35;
+}
+
+#item-form {
+    margin-bottom: 50px;
+}
+
+#item-form div {
+	display: inline-block;
+    margin: 0 10px;
+}
+
+#item-input {
+    height: 35px;
+    width: 230px;
+    border: 1px solid #505050;    
+}
+
+#item-input:focus {
+    border: 1px solid #1D6DE7;    
+}
+
+#add-item {
+    height: 35px;
+    width: 100px;
+    color: #fff;
+    border: 1px solid #4285f4;
+    border-radius: 2px;
+    background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#4387fd), to(#4683ea));
+    background-image: -webkit-linear-gradient(#4387fd, #4683ea);
+    background-image: -moz-linear-gradient(#4387fd, #4683ea);
+    background-image: -o-linear-gradient(#4387fd, #4683ea);
+    background-image: linear-gradient(#4387fd, #4683ea);
+}
+
+.warning {
+	border: 1px solid red !important;
+}
+
+#msg {
+    color: red;
+    font-size: 0.8em;
+    margin-left: 15px;
+    
+}
+
+.strike{
+	text-decoration: line-through !important;
+}
+
+.undo, .delete {
+    position: relative;
+    margin: 5px;
+    top: 0px;
+}
+
+.undo {
+    float: left;
+    padding-right: 10px;
+}
+
+.delete {
+    float: right;
+}
+
+#instructions {
+    line-height: 15pt;
+    margin: 10px 0;
+    padding-left: 10px;
+    font-size: 0.8em;
+    font-style: italic;
+}
