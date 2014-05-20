@@ -42,7 +42,7 @@ $('document').ready(function() {
 	}
 
 	function showWarning() {
-		if( !$(itemInput).val() ) {
+		if( !$(itemInput).val() || $(itemInput).val().trim().length == 0) {
 	    $(msg).html('Error: enter an item.');
 	    $(itemInput).addClass(warning);
     } else {
