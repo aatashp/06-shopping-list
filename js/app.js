@@ -45,6 +45,7 @@ $('document').ready(function() {
 		if( !$(itemInput).val() || $(itemInput).val().trim().length == 0) {
 	    $(msg).html('Error: enter an item.');
 	    $(itemInput).addClass(warning);
+	    $(itemInput).val('');
     } else {
     	$(itemInput).removeClass(warning);
 	    $(msg).html('');
@@ -98,7 +99,7 @@ $('document').ready(function() {
 	}
 
 	function moveToBack() {
-		$(this).stop().animate({opacity: 0.35});
+		$(this).stop().animate({opacity: 0.75});
 	}
 
 

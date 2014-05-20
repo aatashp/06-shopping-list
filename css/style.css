@@ -50,12 +50,12 @@ h2 {
 
 #cart-items-list div {
     background-color: #36d9bc;
-    opacity: 0.35;
+    opacity: 0.75;
 }
 
 #removed-items-list div {
     background-color: #e86425;
-    opacity: 0.35;
+    opacity: 0.75;
 }
 
 #item-form {
